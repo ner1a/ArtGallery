@@ -9,7 +9,7 @@ function ProductCard({properties}) {
             </figure>
             <div className="products__infos">
                 <h3 className="title text products__title"> {properties.İsim} </h3>
-                <span className="text products__price"><kbd>{properties.Fiyat} <span>₺</span></kbd></span>
+                <span className="text products__price">{properties.Fiyat}<span> ₺</span></span>
                 <Socials links={properties.SocialLinks}/>
             </div>
         </div>
