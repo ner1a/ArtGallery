@@ -1,1 +1,1 @@
-# My Final Project (Kodluyoruz Kırıkkale Front-End Bootcamp)
+# My Final Project (Kodluyoruz Kırıkkale Front-End 101 Bootcamp)
