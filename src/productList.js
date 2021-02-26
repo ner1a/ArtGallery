@@ -118,7 +118,7 @@ export const productList = [
         ],
         "Link": [
             {
-                "link":"https://picsum.photos/id/107/270",
+                "link":"https://picsum.photos/id/71/270",
                 "title":"Title"
             },
             {
@@ -223,7 +223,7 @@ export const productList = [
                 "title":"Title"
             },
             {
-                "link":"https://picsum.photos/id/111/270",
+                "link":"https://picsum.photos/id/65/270",
                 "title":"Title"
             },
             {
