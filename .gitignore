@@ -1,0 +1,82 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+src/bootstrap-5.0.0-beta1-dist/css/bootstrap-grid.css
+src/bootstrap-5.0.0-beta1-dist/css/bootstrap-grid.css.map
+src/bootstrap-5.0.0-beta1-dist/css/bootstrap-grid.min.css
+src/bootstrap-5.0.0-beta1-dist/css/bootstrap-grid.min.css.map
+src/bootstrap-5.0.0-beta1-dist/css/bootstrap-grid.rtl.css
+src/bootstrap-5.0.0-beta1-dist/css/bootstrap-grid.rtl.css.map
+src/bootstrap-5.0.0-beta1-dist/css/bootstrap-grid.rtl.min.css
+src/bootstrap-5.0.0-beta1-dist/css/bootstrap-grid.rtl.min.css.map
+src/bootstrap-5.0.0-beta1-dist/css/bootstrap-reboot.css
+src/bootstrap-5.0.0-beta1-dist/css/bootstrap-reboot.css.map
+src/bootstrap-5.0.0-beta1-dist/css/bootstrap-reboot.min.css
+src/bootstrap-5.0.0-beta1-dist/css/bootstrap-reboot.min.css.map
+src/bootstrap-5.0.0-beta1-dist/css/bootstrap-reboot.rtl.css
+src/bootstrap-5.0.0-beta1-dist/css/bootstrap-reboot.rtl.css.map
+src/bootstrap-5.0.0-beta1-dist/css/bootstrap-reboot.rtl.min.css
+src/bootstrap-5.0.0-beta1-dist/css/bootstrap-reboot.rtl.min.css.map
+src/bootstrap-5.0.0-beta1-dist/css/bootstrap-utilities.css
+src/bootstrap-5.0.0-beta1-dist/css/bootstrap-utilities.css.map
+src/bootstrap-5.0.0-beta1-dist/css/bootstrap-utilities.min.css
+src/bootstrap-5.0.0-beta1-dist/css/bootstrap-utilities.min.css.map
+src/bootstrap-5.0.0-beta1-dist/css/bootstrap-utilities.rtl.css
+src/bootstrap-5.0.0-beta1-dist/css/bootstrap-utilities.rtl.css.map
+src/bootstrap-5.0.0-beta1-dist/css/bootstrap-utilities.rtl.min.css
+src/bootstrap-5.0.0-beta1-dist/css/bootstrap-utilities.rtl.min.css.map
+src/bootstrap-5.0.0-beta1-dist/css/bootstrap.css
+src/bootstrap-5.0.0-beta1-dist/css/bootstrap.css.map
+src/bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css
+src/bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css.map
+src/bootstrap-5.0.0-beta1-dist/css/bootstrap.rtl.css
+src/bootstrap-5.0.0-beta1-dist/css/bootstrap.rtl.css.map
+src/bootstrap-5.0.0-beta1-dist/css/bootstrap.rtl.min.css
+src/bootstrap-5.0.0-beta1-dist/css/bootstrap.rtl.min.css.map
+src/bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.js
+src/bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.js.map
+src/bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.min.js
+src/bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.min.js.map
+src/bootstrap-5.0.0-beta1-dist/js/bootstrap.esm.js
+src/bootstrap-5.0.0-beta1-dist/js/bootstrap.esm.js.map
+src/bootstrap-5.0.0-beta1-dist/js/bootstrap.esm.min.js
+src/bootstrap-5.0.0-beta1-dist/js/bootstrap.esm.min.js.map
+src/bootstrap-5.0.0-beta1-dist/js/bootstrap.js
+src/bootstrap-5.0.0-beta1-dist/js/bootstrap.js.map
+src/bootstrap-5.0.0-beta1-dist/js/bootstrap.min.js
+src/bootstrap-5.0.0-beta1-dist/js/bootstrap.min.js.map
+src/css/style.css
+src/css/style.css.map
+src/img/cicek-kolye-kupe-set.jpg
+src/img/çiçekli kolye.jpg
+src/img/facebook-logo.svg
+src/img/geometri kolye.jpg
+src/img/iğne oyası kolye.jpg
+src/img/instagram.svg
+src/img/kelebekli kolye.jpg
+src/img/koyu mavi kolye.jpg
+src/img/mavi kolye.jpg
+src/img/oniks kolye.jpg
+src/img/twitter.svg
+src/img/yeşil kolye.jpg
+src/img/zincir tasarım kolye.jpg
