@@ -245,7 +245,7 @@ function Products() {
         <main className="main _products" id="main">
             <SlideDownMenu productList={productList} onChangeS={handleChangeSearch} onChangeR={handleChangeColour} onChangeC={handleChangeStyle} onChangePmin={handleChangeMinPrize} onChangePmax={handleChangeMaxPrize}/>
             <div className="products">
-                <h1 key="1" id="search-error" className="products__no-result text d-none">Aradığınız şartlara uygun ürün bulunamadı.<span className="products__no-result-span"><small>Lütfen farklı kriterleri deneyiniz.</small></span></h1>
+                <h1 key="1" id="search-error" className="products__no-result text d-none">Aradığınız şartlara uygun ürün bulunamadı.<span className="products__no-result-span"><small>Lütfen farklı arama ya da filtre kriterleri deneyiniz.</small></span></h1>
                 <Container>
                     <Row xs={1} sm={2} md={3} lg={4} className="main__row">
                         {productCards}
