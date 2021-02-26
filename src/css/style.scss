@@ -461,9 +461,6 @@
     &__details-socials{
         margin-top: 15px;
     }
-    &__details-social-link{
-
-    }
 }
 
 .d-none{
@@ -723,7 +720,7 @@ input::-webkit-inner-spin-button {
             margin: auto;
             display: block;
             float: none;
-            min-width: 70%;
+            min-width: 80%;
         }
         &__details-socials{
             display: flex;
@@ -820,6 +817,18 @@ input::-webkit-inner-spin-button {
     .about{
         &__name{
             font-size: 35px;
+        }
+    }
+
+    .products{
+        &__details-tags{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            &>:not(:first-child){
+                
+                margin-top: 5px;
+            }
         }
     }
 }
