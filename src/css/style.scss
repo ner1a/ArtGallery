@@ -480,6 +480,9 @@
     }
     &__details-socials{
         margin-top: 15px;
+        &>*{
+            width: 42px;
+        }
     }
 }
 
@@ -846,13 +849,18 @@ input::-webkit-inner-spin-button {
     }
 
     .products{
+        &__details-title{
+            text-align: center;
+        }
         &__details-tags{
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            &>*{
+                margin: 0 !important;
+            }
             &>:not(:first-child){
-                
-                margin-top: 5px;
+                margin-top: 5px !important;
             }
         }
     }
