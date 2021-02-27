@@ -2,9 +2,24 @@ import {useState, useEffect} from 'react'
 import {DropdownButton} from 'react-bootstrap';
 
 function SlideDownMenu({productList, onChangeS, onChangeR, onChangeC, onChangePmin, onChangePmax }) {
+
+    let prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+        let currentScrollPos = window.pageYOffset;
+        let headerH = document.getElementById("header").clientHeight
+        let sDownH = document.getElementById("slide-down").clientHeight
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("header").style.top = "0";
+            document.getElementById("slide-down").style.top = `${headerH}px`;
+        } else {
+            document.getElementById("header").style.top = `-${headerH}px`;
+            document.getElementById("slide-down").style.top = `0px`;
+        }
+        prevScrollpos = currentScrollPos;
+    }
+
     const [show, setShow] = useState(true)
     useEffect(() => {
-
         if (show) {
             document.getElementById("slide-down-img").classList.add("flip")
             document.getElementById("slide-down-content").classList.remove("slide-up-effect")
@@ -73,7 +88,7 @@ function SlideDownMenu({productList, onChangeS, onChangeR, onChangeC, onChangePm
     });
 
     return <>
-        <div className="slide-down container">
+        <div className="slide-down container" id="slide-down">
             <div className="slide-down__content-bar" id="slide-down-content">
                 <div className="slide-down__content">
                     <div className="slide-down__filter">
