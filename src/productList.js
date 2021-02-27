@@ -267,5 +267,285 @@ export const productList = [
             },
         ]
     },
+    {
+        "İsim":"Safir Işıltısı",
+        "Fiyat": 680,
+        "Etiket": "safir,gümüş",
+        "Renk": "mavi,gümüş",
+        "Çeşit": "taş",
+        "Açıklama": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci animi architecto aperiam, tempore est sit enim vitae expedita excepturi sed dolore dicta doloremque repellat quasi modi dolor voluptas in inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci animi architecto aperiam, tempore est sit enim vitae expedita excepturi sed dolore dicta doloremque repellat quasi modi dolor voluptas in inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci animi architecto aperiam, tempore est sit enim vitae expedita excepturi sed dolore dicta doloremque repellat quasi modi dolor voluptas in inventore.",
+
+        "SocialLinks":[
+            {
+                "title": "letgo",
+                "imglink" : "https://svgshare.com/i/UMJ.svg",
+                "link": "https://www.letgo.com/tr-tr",
+            },
+            {
+                "title": "instagram",
+                "imglink" : "https://svgshare.com/i/UL_.svg",
+                "link": "https://www.instagram.com/",
+            }
+        ],
+        "Link": [
+            {
+                "link":"https://picsum.photos/id/508/270",
+                "title":"Title"
+            },
+            {
+                "link":"https://picsum.photos/id/154/270",
+                "title":"Title"
+            },
+            {
+                "link":"https://picsum.photos/id/263/270",
+                "title":"Title"
+            },
+        ]
+    },
+    {
+        "İsim":"Melek",
+        "Fiyat": 250,
+        "Etiket": "zirkon,gümüş",
+        "Renk": "mavi,sarı,gümüş",
+        "Çeşit": "taş",
+        "Açıklama": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci animi architecto aperiam, tempore est sit enim vitae expedita excepturi sed dolore dicta doloremque repellat quasi modi dolor voluptas in inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci animi architecto aperiam, tempore est sit enim vitae expedita excepturi sed dolore dicta doloremque repellat quasi modi dolor voluptas in inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci animi architecto aperiam, tempore est sit enim vitae expedita excepturi sed dolore dicta doloremque repellat quasi modi dolor voluptas in inventore.",
+
+        "SocialLinks":[
+            {
+                "title": "letgo",
+                "imglink" : "https://svgshare.com/i/UMJ.svg",
+                "link": "https://www.letgo.com/tr-tr",
+            },
+            {
+                "title": "instagram",
+                "imglink" : "https://svgshare.com/i/UL_.svg",
+                "link": "https://www.instagram.com/",
+            }
+        ],
+        "Link": [
+            {
+                "link":"https://picsum.photos/id/507/270",
+                "title":"Title"
+            },
+            {
+                "link":"https://picsum.photos/id/657/270",
+                "title":"Title"
+            },
+            {
+                "link":"https://picsum.photos/id/267/270",
+                "title":"Title"
+            },
+        ]
+    },
+    {
+        "İsim":"Jelibon Küpe",
+        "Fiyat": 90,
+        "Etiket": "zirkon",
+        "Renk": "şeffaf",
+        "Çeşit": "taş",
+        "Açıklama": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci animi architecto aperiam, tempore est sit enim vitae expedita excepturi sed dolore dicta doloremque repellat quasi modi dolor voluptas in inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci animi architecto aperiam, tempore est sit enim vitae expedita excepturi sed dolore dicta doloremque repellat quasi modi dolor voluptas in inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci animi architecto aperiam, tempore est sit enim vitae expedita excepturi sed dolore dicta doloremque repellat quasi modi dolor voluptas in inventore.",
+
+        "SocialLinks":[
+            {
+                "title": "letgo",
+                "imglink" : "https://svgshare.com/i/UMJ.svg",
+                "link": "https://www.letgo.com/tr-tr",
+            },
+            {
+                "title": "instagram",
+                "imglink" : "https://svgshare.com/i/UL_.svg",
+                "link": "https://www.instagram.com/",
+            }
+        ],
+        "Link": [
+            {
+                "link":"https://picsum.photos/id/967/270",
+                "title":"Title"
+            },
+            {
+                "link":"https://picsum.photos/id/964/270",
+                "title":"Title"
+            },
+            {
+                "link":"https://picsum.photos/id/993/270",
+                "title":"Title"
+            },
+        ]
+    },
+    {
+        "İsim":"Safir Işıltısı",
+        "Fiyat": 680,
+        "Etiket": "safir,gümüş",
+        "Renk": "mavi,gümüş",
+        "Çeşit": "taş",
+        "Açıklama": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci animi architecto aperiam, tempore est sit enim vitae expedita excepturi sed dolore dicta doloremque repellat quasi modi dolor voluptas in inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci animi architecto aperiam, tempore est sit enim vitae expedita excepturi sed dolore dicta doloremque repellat quasi modi dolor voluptas in inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci animi architecto aperiam, tempore est sit enim vitae expedita excepturi sed dolore dicta doloremque repellat quasi modi dolor voluptas in inventore.",
+
+        "SocialLinks":[
+            {
+                "title": "letgo",
+                "imglink" : "https://svgshare.com/i/UMJ.svg",
+                "link": "https://www.letgo.com/tr-tr",
+            },
+            {
+                "title": "instagram",
+                "imglink" : "https://svgshare.com/i/UL_.svg",
+                "link": "https://www.instagram.com/",
+            }
+        ],
+        "Link": [
+            {
+                "link":"https://picsum.photos/id/508/270",
+                "title":"Title"
+            },
+            {
+                "link":"https://picsum.photos/id/154/270",
+                "title":"Title"
+            },
+            {
+                "link":"https://picsum.photos/id/263/270",
+                "title":"Title"
+            },
+        ]
+    },
+    {
+        "İsim":"Karamel",
+        "Fiyat": 190,
+        "Etiket": "çanta",
+        "Renk": "kahverengi",
+        "Çeşit": "keçe",
+        "Açıklama": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci animi architecto aperiam, tempore est sit enim vitae expedita excepturi sed dolore dicta doloremque repellat quasi modi dolor voluptas in inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci animi architecto aperiam, tempore est sit enim vitae expedita excepturi sed dolore dicta doloremque repellat quasi modi dolor voluptas in inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci animi architecto aperiam, tempore est sit enim vitae expedita excepturi sed dolore dicta doloremque repellat quasi modi dolor voluptas in inventore.",
+
+        "SocialLinks":[
+            {
+                "title": "letgo",
+                "imglink" : "https://svgshare.com/i/UMJ.svg",
+                "link": "https://www.letgo.com/tr-tr",
+            },
+            {
+                "title": "instagram",
+                "imglink" : "https://svgshare.com/i/UL_.svg",
+                "link": "https://www.instagram.com/",
+            }
+        ],
+        "Link": [
+            {
+                "link":"https://picsum.photos/id/1023/270",
+                "title":"Title"
+            },
+            {
+                "link":"https://picsum.photos/id/1011/270",
+                "title":"Title"
+            },
+            {
+                "link":"https://picsum.photos/id/1080/270",
+                "title":"Title"
+            },
+        ]
+    },
+    {
+        "İsim":"Tasarım Askılı Çanta",
+        "Fiyat": 220,
+        "Etiket": "baget çanta",
+        "Renk": "vizon",
+        "Çeşit": "deri",
+        "Açıklama": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci animi architecto aperiam, tempore est sit enim vitae expedita excepturi sed dolore dicta doloremque repellat quasi modi dolor voluptas in inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci animi architecto aperiam, tempore est sit enim vitae expedita excepturi sed dolore dicta doloremque repellat quasi modi dolor voluptas in inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci animi architecto aperiam, tempore est sit enim vitae expedita excepturi sed dolore dicta doloremque repellat quasi modi dolor voluptas in inventore.",
+
+        "SocialLinks":[
+            {
+                "title": "letgo",
+                "imglink" : "https://svgshare.com/i/UMJ.svg",
+                "link": "https://www.letgo.com/tr-tr",
+            },
+            {
+                "title": "instagram",
+                "imglink" : "https://svgshare.com/i/UL_.svg",
+                "link": "https://www.instagram.com/",
+            }
+        ],
+        "Link": [
+            {
+                "link":"https://picsum.photos/id/421/270",
+                "title":"Title"
+            },
+            {
+                "link":"https://picsum.photos/id/516/270",
+                "title":"Title"
+            },
+            {
+                "link":"https://picsum.photos/id/724/270",
+                "title":"Title"
+            },
+        ]
+    },
+    {
+        "İsim":"Kapitone Deri Çanta",
+        "Fiyat": 310,
+        "Etiket": "desenli çanta",
+        "Renk": "açık kahve",
+        "Çeşit": "deri",
+        "Açıklama": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci animi architecto aperiam, tempore est sit enim vitae expedita excepturi sed dolore dicta doloremque repellat quasi modi dolor voluptas in inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci animi architecto aperiam, tempore est sit enim vitae expedita excepturi sed dolore dicta doloremque repellat quasi modi dolor voluptas in inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci animi architecto aperiam, tempore est sit enim vitae expedita excepturi sed dolore dicta doloremque repellat quasi modi dolor voluptas in inventore.",
+
+        "SocialLinks":[
+            {
+                "title": "letgo",
+                "imglink" : "https://svgshare.com/i/UMJ.svg",
+                "link": "https://www.letgo.com/tr-tr",
+            },
+            {
+                "title": "instagram",
+                "imglink" : "https://svgshare.com/i/UL_.svg",
+                "link": "https://www.instagram.com/",
+            }
+        ],
+        "Link": [
+            {
+                "link":"https://picsum.photos/id/425/270",
+                "title":"Title"
+            },
+            {
+                "link":"https://picsum.photos/id/478/270",
+                "title":"Title"
+            },
+            {
+                "link":"https://picsum.photos/id/433/270",
+                "title":"Title"
+            },
+        ]
+    },
+    {
+        "İsim":"Mint",
+        "Fiyat": 195,
+        "Etiket": "turkuaz,moldavit,krizokol",
+        "Renk": "turkuaz,açık mavi,açık yeşil",
+        "Çeşit": "taş",
+        "Açıklama": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci animi architecto aperiam, tempore est sit enim vitae expedita excepturi sed dolore dicta doloremque repellat quasi modi dolor voluptas in inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci animi architecto aperiam, tempore est sit enim vitae expedita excepturi sed dolore dicta doloremque repellat quasi modi dolor voluptas in inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci animi architecto aperiam, tempore est sit enim vitae expedita excepturi sed dolore dicta doloremque repellat quasi modi dolor voluptas in inventore.",
+
+        "SocialLinks":[
+            {
+                "title": "letgo",
+                "imglink" : "https://svgshare.com/i/UMJ.svg",
+                "link": "https://www.letgo.com/tr-tr",
+            },
+            {
+                "title": "instagram",
+                "imglink" : "https://svgshare.com/i/UL_.svg",
+                "link": "https://www.instagram.com/",
+            }
+        ],
+        "Link": [
+            {
+                "link":"https://picsum.photos/id/610/270",
+                "title":"Title"
+            },
+            {
+                "link":"https://picsum.photos/id/678/270",
+                "title":"Title"
+            },
+            {
+                "link":"https://picsum.photos/id/638/270",
+                "title":"Title"
+            },
+        ]
+    },
 ]
 
