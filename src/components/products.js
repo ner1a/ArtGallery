@@ -21,24 +21,34 @@ function Products() {
             e.addEventListener("click", showDetails)
         });
         function showDetails(e) {   
+            //-----------------------------------------------------------------------------            
             let showDetailsContainer = document.createElement("div")
             showDetailsContainer.classList.add("products__details-container")
             showDetailsContainer.id= "showDetailsContainer"
             document.getElementById("root").appendChild(showDetailsContainer)
-            
+            //-----------------------------------------------------------------------------            
             let detailsCloser = document.createElement("div")
             detailsCloser.className = "products__details-container products__details-closer"
             document.getElementById("showDetailsContainer").appendChild(detailsCloser)
-            //Details penceresini yok ettik
-            detailsCloser.addEventListener("click", () => {
-                showDetailsContainer.remove()
-                detailsCloser.remove()
-            })
             //-----------------------------------------------------------------------------
             let showDetails = document.createElement("div")
             showDetails.classList.add("products__details")
             showDetails.id = "showDetails"
             document.getElementById("showDetailsContainer").appendChild(showDetails)
+            //-----------------------------------------------------------------------------
+            let detailsCloseButton = document.createElement("img")
+            detailsCloseButton.alt = "close"
+            detailsCloseButton.src = "https://svgshare.com/i/UXZ.svg"
+            detailsCloseButton.className = "products__details-close-button"
+            document.getElementById("showDetails").appendChild(detailsCloseButton)
+            //-----------------------------------------------------------------------------            
+            //Details penceresini yok ettik
+            detailsCloser.addEventListener("click", () => {
+                showDetailsContainer.remove()
+            })
+            detailsCloseButton.addEventListener("click", () => {
+                showDetailsContainer.remove()
+            })
             //-----------------------------------------------------------------------------
             let showDetailsImg = document.createElement("div")
             showDetailsImg.classList.add("products__details-img")
