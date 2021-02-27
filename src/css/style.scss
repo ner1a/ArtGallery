@@ -225,6 +225,7 @@
     width: 100%;
     margin: auto;
     border-bottom: 2px solid var(--theme-color-light);
+    transition: .3s;
 }
 
 .fixed{
@@ -498,6 +499,7 @@ input::-webkit-inner-spin-button {
     z-index: 9;
     right: 0;
     left: 0;
+    transition: .3s;
     &__content-bar{
         transform: translateY(-100%);
         display: flex;
@@ -618,6 +620,8 @@ input::-webkit-inner-spin-button {
     &__button-filter>.dropdown-menu{
         padding: 10px 12px 10px 8px;
         border-radius: 12px;
+        max-height: 70vh;
+        overflow: scroll;
     }
     &__price-input{
         width: 80px;
@@ -786,9 +790,6 @@ input::-webkit-inner-spin-button {
             &>a{
                 overflow: hidden;
             }
-        }
-        &__button-filter:nth-child(2)>.dropdown-menu{
-            transform: scale(.85) translateY(2%) !important;
         }
     }
 
