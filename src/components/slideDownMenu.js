@@ -2,23 +2,9 @@ import {useState, useEffect} from 'react'
 import {DropdownButton} from 'react-bootstrap';
 
 function SlideDownMenu({productList, onChangeS, onChangeR, onChangeC, onChangePmin, onChangePmax }) {
-
-    let prevScrollpos = window.pageYOffset;
-    window.onscroll = function() {
-        let currentScrollPos = window.pageYOffset;
-        let headerH = document.getElementById("header").clientHeight
-        let sDownH = document.getElementById("slide-down").clientHeight
-        if (prevScrollpos > currentScrollPos) {
-            document.getElementById("header").style.top = "0";
-            document.getElementById("slide-down").style.top = `${headerH}px`;
-        } else {
-            document.getElementById("header").style.top = `-${headerH}px`;
-            document.getElementById("slide-down").style.top = `0px`;
-        }
-        prevScrollpos = currentScrollPos;
-    }
-
+    
     const [show, setShow] = useState(true)
+
     useEffect(() => {
         if (show) {
             document.getElementById("slide-down-img").classList.add("flip")
@@ -29,7 +15,25 @@ function SlideDownMenu({productList, onChangeS, onChangeR, onChangeC, onChangePm
             document.getElementById("slide-down-content").classList.remove("slide-down-effect")
             document.getElementById("slide-down-content").classList.add("slide-up-effect")
         }
+        let prevScrollpos = window.pageYOffset;
+        let header = document.getElementById("header");
+        let slide_down = document.getElementById("slide-down");
+        if (header && slide_down) {
+          window.onscroll = function () {
+            let currentScrollPos = window.pageYOffset;
+            let headerH = header.clientHeight
+            if (prevScrollpos > currentScrollPos) {
+              header.style.top = "0";
+              slide_down.style.top = `${headerH}px`;
+            } else {
+              header.style.top = `-${headerH}px`;
+              slide_down.style.top = "0";
+            }
+            prevScrollpos = currentScrollPos;
+          }
+        }
     })
+
     const cesit = []
     const cesitList = []
     const renk = []
