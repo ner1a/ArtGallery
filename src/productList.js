@@ -268,10 +268,10 @@ export const productList = [
         ]
     },
     {
-        "İsim":"Safir Işıltısı",
-        "Fiyat": 680,
-        "Etiket": "safir,gümüş",
-        "Renk": "mavi,gümüş",
+        "İsim":"Aurora",
+        "Fiyat": 430,
+        "Etiket": "ametist,pembe kuvars,aventurin,kehribar",
+        "Renk": "mor,yeşil,pembe,kehribar",
         "Çeşit": "taş",
         "Açıklama": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci animi architecto aperiam, tempore est sit enim vitae expedita excepturi sed dolore dicta doloremque repellat quasi modi dolor voluptas in inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci animi architecto aperiam, tempore est sit enim vitae expedita excepturi sed dolore dicta doloremque repellat quasi modi dolor voluptas in inventore. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci animi architecto aperiam, tempore est sit enim vitae expedita excepturi sed dolore dicta doloremque repellat quasi modi dolor voluptas in inventore.",
 
@@ -289,15 +289,15 @@ export const productList = [
         ],
         "Link": [
             {
-                "link":"https://picsum.photos/id/508/270",
+                "link":"https://picsum.photos/id/523/270",
                 "title":"Title"
             },
             {
-                "link":"https://picsum.photos/id/154/270",
+                "link":"https://picsum.photos/id/434/270",
                 "title":"Title"
             },
             {
-                "link":"https://picsum.photos/id/263/270",
+                "link":"https://picsum.photos/id/195/270",
                 "title":"Title"
             },
         ]
