@@ -2,7 +2,9 @@
 
 ## This project created with *create-react-app* starter kit
 
-### All pages created **dynamicly** and **responsive**
+### Personal web site for a local artist
+
+### All site created **dynamic** and **responsive**
 
 Used https://picsum.photos/ for placeholder images
 
