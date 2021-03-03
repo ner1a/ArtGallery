@@ -21,10 +21,10 @@ npm i react-slick
 ## Overview
 
 ### Main Page
-![Main Page GIF](https://i.imgur.com/cC7iRzy.gif)
+![Main Page GIF](Demo/MainPage.gif)
 
 ### Products Page
-![Main Page GIF](https://i.imgur.com/oJT1pdJ.gif)
+![Main Page GIF](Demo/ProductPage.gif)
 
 ### About Page
-![Main Page GIF](https://i.imgur.com/EzGLy5b.gif)
+![Main Page GIF](Demo/AboutPage.gif)
