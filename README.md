@@ -1,8 +1,8 @@
 # My Final Project (Kodluyoruz Kırıkkale Front-End 101 Bootcamp)
 
-## This project created with *create-react-app* starter kit
+## Personal web site for a local artist
 
-### Personal web site for a local artist
+### This project created with *create-react-app* starter kit
 
 All site created **dynamic** and **responsive**
 
