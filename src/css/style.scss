@@ -456,6 +456,11 @@
         align-items: center;
         max-width: 100%;
         margin-top: 5px;
+        overflow: auto;
+        &>*{
+            display: inline-block;
+            white-space: nowrap;
+        }
         &>:not(:last-child){
             margin-right: 15px;
         }
