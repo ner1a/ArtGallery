@@ -4,7 +4,7 @@
 
 ### Personal web site for a local artist
 
-### All site created **dynamic** and **responsive**
+All site created **dynamic** and **responsive**
 
 Used https://picsum.photos/ for placeholder images
 
