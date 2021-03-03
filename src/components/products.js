@@ -14,6 +14,8 @@ function Products() {
         else{
             document.getElementById("search-error").classList.add("d-none")
         }
+    })
+    useEffect(() => {
         document.querySelectorAll(".products__slider").forEach(e => {
             e.addEventListener("click", showDetails)
         });
@@ -139,7 +141,7 @@ function Products() {
             });
         }
 
-    })
+    },[])
 //-----------------------------------------------------------------------------
     const [searchWord , setSearchWord] = useState("");
     const [cesit, setCesit] = useState("");
@@ -224,7 +226,6 @@ function Products() {
         }
     })
     let coloredList = styledList.filter(e => {
-        let control = 0
         if (colorFilterList.length>0) {
             for (let i = 0; i < colorFilterList.length; i++) {
                 if (e.Renk.toLocaleLowerCase().indexOf(colorFilterList[i].toLocaleLowerCase()) > -1) {
